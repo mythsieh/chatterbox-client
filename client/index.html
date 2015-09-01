@@ -5,16 +5,24 @@
     <title>chatterbox</title>
     <link rel="stylesheet" href="styles/styles.css">
 
-    <!-- dependencies -->
-    <script src="bower_components/jquery/jquery.min.js"></script>
-    <!-- your scripts -->
-    <script src="env/config.js"></script>
-    <script src="scripts/app.js"></script>
   </head>
   <body>
     <div id="main">
       <h1>chatterbox</h1>
       <!-- Your HTML goes here! -->
     </div>
+    <button id='post'>Post</button> 
+    <form>
+      <textarea id='mytextarea' rows='8' cols='80' placeholder ='Type your message here!'></textarea>
+    </form>
+    <div class="messages">
+      
+    </div>
+    <!-- dependencies -->
+    <script src="bower_components/jquery/jquery.min.js"></script>
+    <script src="bower_components/underscore/underscore-min.js"></script>
+    <!-- your scripts -->
+    <script src="env/config.js"></script>
+    <script src="scripts/app.js"></script>
   </body>
 </html>
